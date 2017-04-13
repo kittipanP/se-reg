@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="2" hostname="DESKTOP-43CPGBL" id="0" name="StudentSpec" package="team18" tests="4" time="4.54" timestamp="2559-01-04T14:45:04">
+      <properties />
+
+      <testcase classname="team18.StudentSpec" name="test sid matching" time="4.335" />
+
+      <testcase classname="team18.StudentSpec" name="test sid is unique" time="0.078">
+          <failure message="Condition not satisfied:&#xa;&#xa;s2.validate() == false&#xa;|  |          |&#xa;|  true       false&#xa;team18.Student : 1&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+s2.validate() == false
+|  |          |
+|  true       false
+team18.Student : 1
+
+	at team18.StudentSpec.test sid is unique(StudentSpec.groovy:58)
+</failure>
+
+      </testcase>
+
+      <testcase classname="team18.StudentSpec" name="test password fail" time="0.031">
+          <failure message="Condition not satisfied:&#xa;&#xa;s1.validate() == false&#xa;|  |          |&#xa;|  true       false&#xa;team18.Student : 1&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+s1.validate() == false
+|  |          |
+|  true       false
+team18.Student : 1
+
+	at team18.StudentSpec.test password fail(StudentSpec.groovy:74)
+</failure>
+
+      </testcase>
+
+      <testcase classname="team18.StudentSpec" name="test password true" time="0.021" />
+
+      <system-out><![CDATA[--Output from test sid matching--
+--Output from test sid is unique--
+--Output from test password fail--
+--Output from test password true--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test sid matching--
+--Output from test sid is unique--
+--Output from test password fail--
+--Output from test password true--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

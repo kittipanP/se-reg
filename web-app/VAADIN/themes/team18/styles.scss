@@ -1,0 +1,44 @@
+$v-app-background-color: hsl(25, 0%, 10%);
+$v-font-color: #FF6633;
+@import "../valo/valo";
+
+.team18 {
+	@include valo;
+}
+
+
+.v-nativebutton-borderless {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+
+.v-label-strike {
+	text-decoration: line-through;
+
+}
+
+
+.FontAwesome {
+	font-size: 20px;
+}
+.v-grid-header{
+	color: #000000;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.v-grid-cell{
+	color: #1d1d1d;
+	font-weight: 300;
+	font-size: 10px;
+}
+.v-margin-left   {padding-left:   10px;}
+.v-margin-right  {padding-right:  10px;}
+.v-margin-top    {padding-top:    10px;}
+.v-margin-bottom {padding-bottom: 10px;}
+
+.v-app .v-customlayout {
+    overflow: auto;
+}
